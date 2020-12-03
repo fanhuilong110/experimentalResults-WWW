@@ -1,0 +1,40 @@
+
+The data files are:
+
+	acraft basesx bednfmx netwrk4 patdatx sgenms
+
+The first field in the file patdatx gives the number of days the problem
+is to model.  Large number of days gives large problems.  We were told
+that this is the only parameter to play with, so we know no more about
+these files.
+
+The output is stored in the files:
+
+	nodes arcs mutual
+
+They have the following fortran formats (explanation per field)...
+
+    nodes:
+	2I5, F10.0, A8, 2X, I2, 1X, A17
+	node number
+	commodity number
+	supply or demand
+	3 other fields
+
+    arcs:
+	A2, I8.8, 3I5, 2F10.2, I5, A8, I2, '-', I2, 1X, A16
+	arc type name
+	arc number
+	from node
+	into node
+	commodity number
+	cost
+	capacity
+	number of mutual constraint
+	4 other fields
+
+    mutual:
+	I5, F10.0, A20, A16
+	mutual constraint number
+	capacity
+	2 other fields

@@ -1,0 +1,120 @@
+PF16 2    0.0-1.00DLY--IAP      IAP             ARC TYPE 1                                                                          
+SC 0 2 1440.0-1.00STAGECAP      IAP                      2                                                                          
+ET 2 3    0.0-1.00TRANSCAP      IAP                      3                                                                          
+EP 3 5   -1.0-1.00IAP--POD      IAP    POD               4                                                                          
+AD 5 6  120.0-1.00POD--ASF      POD    ASF               5                                                                          
+AC 116    0.0-1.00SRC--DLY                               6                                                                          
+XX1713    0.0-1.00DLY--SNK                               7                                                                          
+RH 5 8   60.0-1.00POD--C-9      POD                      8                                                                          
+C9 6 7   60.0-1.00PSF--C9A      POD    ASF               9                                                                          
+XX 812    0.0-1.00C9P--HOS      POD    HOS              10                                                                          
+XX 6 4   60.0-1.00ASF--C-9      ASF                     11                                                                          
+RD 0 5   -1.0-1.00ASF--POD      ASF    POD              12                                                                          
+DD 510   -1.0-1.00POD--DOS      POD    DOS              13                                                                          
+AA1011   60.0-1.00DOS--ASF      DOS    ASF              14                                                                          
+DI 010 1440.0-1.00DOSASFCP      ASF    DOS              15                                                                          
+AH 012    0.0-1.00ASF--HOS      ASF    HOS              16                                                                          
+XX 712   60.0-1.00C9A--HOS      ASF    HOS              17                                                                          
+XX10 4   60.0-1.00DOS--C-9      DOS                     18                                                                          
+CH10 9   60.0-1.00DOS--C9D      DOS                     19                                                                          
+XX 912    0.0-1.00C9D--HOS      DOS    HOS              20                                                                          
+HC 012    0.0-1.00HOSP CAP             HOS              21                                                                          
+DS1217    0.0-1.00DISCHARG             HOS              22                                                                          
+SI 11499999.0-1.00SRC--INP                              23                                                                          
+II 01466666.0-1.00IAP--INP      IAP                     24                                                                          
+HI 014    0.0-1.00HOS--INP             HOS              25                                                                          
+AI 01433333.0-1.00ASF--INP      ASF                     26                                                                          
+IS141310000.0-1.00INP--SNK                              27                                                                          
+XX 415    0.0-1.00COL--DIS                              28                                                                          
+XX11 7    0.0-1.00DSF--C9A      DOS    ASF              29                                                                          
+ 2  4  3 15  2                                           1                                                                          
+ 2  4  3 15  2                                           2                                                                          
+ 2  4  3 15  2                                           3                                                                          
+ 3  4  3 11  3 15  2                                     4                                                                          
+ 3  4  3 11  3 15  2                                     5                                                                          
+ 1 15  2                                                 6                                                                          
+ 1 15  2                                                 7                                                                          
+ 2  4  3 15  2                                           8                                                                          
+ 3  4  3 11  3 15  2                                     9                                                                          
+ 3  4  3 11  3 15  2                                    10                                                                          
+ 2  4  3 15  2                                          11                                                                          
+ 3  4  3 11  3 15  2                                    12                                                                          
+ 3  4  3 11  3 15  2                                    13                                                                          
+ 3  4  3 11  3 15  2                                    14                                                                          
+ 3  4  3 11  3 15  2                                    15                                                                          
+ 3  4  3 11  3 15  2                                    16                                                                          
+ 3  4  3 11  3 15  2                                    17                                                                          
+ 2  4  3 15  2                                          18                                                                          
+ 2  4  3 15  2                                          19                                                                          
+ 3  4  3 11  3 15  2                                    20                                                                          
+ 2 11  3 15  2                                          21                                                                          
+ 2 11  3 15  2                                          22                                                                          
+ 0                                                      23                                                                          
+ 1  4  3                                                24                                                                          
+ 1 11  3                                                25                                                                          
+ 1  4  3                                                26                                                                          
+ 0                                                      27                                                                          
+ 1 15  2                                                28                                                                          
+ 3  4  3 11  3 15  2                                    29                                                                          
+STAGING CAPACITY    IAP                MCC TYPE  1                                                                                  
+SUPPLY FLOW    CATEGORY                          2                                                                                  
+TRANSIENT CAPACITY  IAP                          3                                                                                  
+C-141 LIT CAPACITY  IAP    POD                   4                                                                                  
+C-141 AMB CAPACITY  IAP    POD                   5                                                                                  
+ASF CAPACITY        ASF                          6                                                                                  
+HOSPITAL CAPACITY  HOSP                          7                                                                                  
+MAX DISCHARGES CATEGORY                          8                                                                                  
+C-9 DAILY CAPACITY  ASF                          9                                                                                  
+C-9 DAILY CAPACITY  DOS                         10                                                                                  
+C-141 LIT CAPACITY  POD    DOS                  11                                                                                  
+C-141 AMB CAPACITY  POD    DOS                  12                                                                                  
+ 2  4  3 15  2                                                                                                                      
+ 0                                                                                                                                  
+ 2  4  3 15  2                                                                                                                      
+ 3  4  3 11  3 15  2                                                                                                                
+ 3  4  3 11  3 15  2                                                                                                                
+ 2  4  3 15  2                                                                                                                      
+ 0                                                                                                                                  
+ 0                                                                                                                                  
+ 2  4  3 15  2                                                                                                                      
+ 2  4  3 15  2                                                                                                                      
+ 3  4  3 11  3 15  2                                                                                                                
+ 3  4  3 11  3 15  2                                                                                                                
+SUPR SRC   1 SUPR SRC                                                                                                               
+IAP ADMT   2 APA                                                                                                                    
+IAP RLES   3 APR                                                                                                                    
+C-9 CLCT   4 C-9 CLCT                                                                                                               
+APOD       5 POD                                                                                                                    
+APOD ASF   6 ASF     POD                                                                                                            
+C-9 ASF    7 C9A                                                                                                                    
+C-9 APOD   8 C9P                                                                                                                    
+C-9 DOS    9 C9D                                                                                                                    
+DOS       10 DOS                                                                                                                    
+DOS ASF   11 ASF     DOS                                                                                                            
+HOSPITAL  12 HOS                                                                                                                    
+SUPR SNK  13 SUPR SNK                                                                                                               
+IN PROCS  14 IN PROCS                                                                                                               
+C-9 DIST  15 C-9 DIST                                                                                                               
+DLY SRC   16 DLY SRC                                                                                                                
+DLY SINK  17 DLY SNK                                                                                                                
+ 0                                                                                                                                  
+ 2  4  3 16  2                                                                                                                      
+ 2  4  3 16  2                                                                                                                      
+ 1 16  2                                                                                                                            
+ 2  4  3 16  2                                                                                                                      
+ 3  4  3 12  3 16  2                                                                                                                
+ 2  4  3 16  2                                                                                                                      
+ 2  4  3 16  2                                                                                                                      
+ 2  4  3 16  2                                                                                                                      
+ 2  4  3 16  2                                                                                                                      
+ 3  4  3 12  3 16  2                                                                                                                
+ 2  4  3 16  2                                                                                                                      
+ 0                                                                                                                                  
+ 0                                                                                                                                  
+ 1 16  2                                                                                                                            
+ 1 16  2                                                                                                                            
+ 1 16  2                                                                                                                            
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTT     PRINT SWITCHES  NODES                                                                             
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTT                     ARCS                                                                              
+TTTTTTTTTTTTFFFFFFFFFFFFFFFFF                     MUTUAL CAP. CONSTRAINT                                                            
+
