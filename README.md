@@ -15,10 +15,10 @@ data sources:  http://www.di.unipi.it/di/groups/optimize/Data/MMCF.html.
 <div align=center><img src="https://github.com/fanhuilong110/experimentalResults-WWW/blob/main/result.png" width="800" height="694" /></div>
   As shown in Figure 7, the figure shows the time comparison of the three solving methods of CPLEX, IPM and PAFUDN on the data sets PDS1, PDS10, PDS30 and PDS40. It can be seen from the figure that as the number of data sets increases, the solving rate of CPLEX increases significantly, especially after PDS20, the time consumption of CPLEX increases sharply. The rate of increase of IPM and PAFUDN is basically the same before PDS20. After PDS20, the rate of increase of IPM time consumption is greater than that of PAFUDN.
 
-<div align=center><img src="https://github.com/fanhuilong110/experimentalResults-WWW/blob/main/RS1.emf" width="800" height="694" /></div>
+<div align=center><img src="https://github.com/fanhuilong110/experimentalResults-WWW/blob/main/RS1.png" width="800" height="694" /></div>
 <div align=center>Figure 7: Performance comparison of three algorithms on datasets PDS1-40</div>
 
-<div align=center><img src="https://github.com/fanhuilong110/experimentalResults-WWW/blob/main/RS2.emf" width="800" height="694" /></div>
+<div align=center><img src="https://github.com/fanhuilong110/experimentalResults-WWW/blob/main/RS2.png" width="800" height="694" /></div>
 <div align=center>Figure 8: Performance comparison of three algorithms on data set PDS50-90</div>
   As shown in Figure 7, the figure shows the time comparison of the three solving methods of CPLEX, IPM and PAFUDN on the data sets PDS50, PDS60, PDS70, PDS80 and PDS90. It can be seen from the figure that with the increase of the number of data sets, the solving rate of CPLEX shows a rapid upward trend, and the time consumption value is much larger than the two algorithms of IPM and PAFUDN. The rate of increase of IPM and PAFUDN is basically the same, and the rate of increase of IPM time consumption is greater than that of PAFUDN.
   In summary, on multiple data sets, the computational time complexity of CPLEX and IPM solvers is greater than PAFUDN. Therefore, the algorithm PAFUDN proposed in this paper has certain advantages in computing performance.
